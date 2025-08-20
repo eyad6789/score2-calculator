@@ -179,7 +179,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
-- **Developer**: Eyad
+- **Developer**: Mohamed
+- **Fix bugs**: Eyad
 - **GitHub**: [@eyad6789](https://github.com/eyad6789)
 - **Repository**: [score2-calculator](https://github.com/eyad6789/score2-calculator)
 

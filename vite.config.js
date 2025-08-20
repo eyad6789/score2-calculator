@@ -7,6 +7,9 @@ import path from 'path'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/score2-calculator/', // Add this line for GitHub Pages
+  build: {
+    outDir: 'docs', // Change output directory to 'docs' for GitHub Pages
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

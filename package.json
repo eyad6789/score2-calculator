@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && git add docs && git commit -m 'Deploy to GitHub Pages' && git push origin main"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
